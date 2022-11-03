@@ -61,7 +61,7 @@ main {
     width: 70%;
 }
 
-.not-active:hover {
+.sidebar-link:hover {
     color: #ffffff;
 }
 

@@ -23,19 +23,19 @@
             </li>
             <hr class="sidebar-divider">
             <li class="about-li">
-                <a class="not-active" href="#">
+                <a class="sidebar-link" href="#">
                     <span>Главная</span>
                 </a>
             </li>
             <hr class="sidebar-divider">
             <li class="about-li">
-                <a class="not-active" href="#">
+                <a class="sidebar-link" href="#">
                     <span>Об авторе</span>
                 </a>
             </li>
             <hr class="sidebar-divider">
             <li class="about-li">
-                <a class="not-active" href="#">
+                <a class="sidebar-link" href="#">
                     <span>О фирме</span>
                 </a>
             </li>
