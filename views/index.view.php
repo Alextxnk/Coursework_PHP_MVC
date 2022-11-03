@@ -1,14 +1,130 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+            href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+            rel="stylesheet">
+    <link rel="stylesheet" href="../public/css/style.css">
+    <link rel="shortcut icon" href="../public/img/favicon_store.png">
+    <title>iStockphoto</title>
+    <meta name="description" content="Магазин Фототехники в Ростове-на-Дону">
 </head>
+
 <body>
-   
+<main>
+    <section class="section-about">
+        <ul class="about-ul">
+            <li class="logo-li">
+                <a href="../src/index.html">
+                    <img class="logo" src="../public/img/logo.png" alt="logo">
+                </a>
+            </li>
+            <hr class="sidebar-divider">
+            <li class="about-li">
+                <a class="not-active" href="../src/index.html">
+                    <span>Главная</span>
+                </a>
+            </li>
+            <hr class="sidebar-divider">
+            <li class="about-li">
+                <a class="not-active" href="pages/author.html">
+                    <span>Об авторе</span>
+                </a>
+            </li>
+            <hr class="sidebar-divider">
+            <li class="about-li">
+                <a class="not-active" href="pages/firm.html">
+                    <span>О фирме</span>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <section class="section-main">
+        <nav>
+            <ul class="nav-ul">
+                <li class="nav-li"><a class="navbar-brand" href="#">Главная</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <div class="row">
+
+                <div class="card-item">
+                    <div class="card-header">
+                        <div class="row">
+                            <div class="col">
+                                <h1 class="h1">Фотоаппараты</h1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <a href="pages/table1.html">
+                            <img class="photo_equipment" src="../public/img/photo_camera.jpg" alt="Фотоаппараты">
+                        </a>
+                    </div>
+                    <!-- /.card-body -->
+                </div>
+                <!-- /.card -->
+
+                <div class="card-item">
+                    <div class="card-header">
+                        <div class="row">
+                            <div class="col">
+                                <h1 class="h1">Объективы</h1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <a href="pages/table2.html">
+                            <img class="photo_equipment" src="../public/img/lens.jpg" alt="Объективы">
+                        </a>
+                    </div>
+                    <!-- /.card-body -->
+                </div>
+                <!-- /.card -->
+
+                <div class="card-item">
+                    <div class="card-header">
+                        <div class="row">
+                            <div class="col">
+                                <h1 class="h1">Вспышки</h1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <a href="pages/table3.html">
+                            <img class="photo_equipment" src="../public/img/flash.jpg" alt="Вспышки">
+                        </a>
+                    </div>
+                    <!-- /.card-body -->
+                </div>
+                <!-- /.card -->
+
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.content -->
+        <footer>
+            <div class="footer-container">
+                <div>
+                    <span>Copyright &copy; iStockphoto, 2010-2022. All rights reserved</span>
+                </div>
+                <div>
+                    <a class="email" href="mailto:mail@example.com">email</a>
+                </div>
+            </div>
+            <!-- /.footer-container -->
+        </footer>
+    </section>
+</main>
+
 </body>
 </html>
-
 
