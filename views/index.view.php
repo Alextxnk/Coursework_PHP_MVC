@@ -17,25 +17,25 @@
     <section class="section-about">
         <ul class="about-ul">
             <li class="logo-li">
-                <a href="../src/index.html">
+                <a href="#">
                     <img class="logo" src="../public/img/logo.png" alt="logo">
                 </a>
             </li>
             <hr class="sidebar-divider">
             <li class="about-li">
-                <a class="not-active" href="../src/index.html">
+                <a class="not-active" href="#">
                     <span>Главная</span>
                 </a>
             </li>
             <hr class="sidebar-divider">
             <li class="about-li">
-                <a class="not-active" href="pages/author.html">
+                <a class="not-active" href="#">
                     <span>Об авторе</span>
                 </a>
             </li>
             <hr class="sidebar-divider">
             <li class="about-li">
-                <a class="not-active" href="pages/firm.html">
+                <a class="not-active" href="#">
                     <span>О фирме</span>
                 </a>
             </li>
@@ -50,7 +50,6 @@
         </nav>
         <div class="content">
             <div class="row">
-
                 <div class="card-item">
                     <div class="card-header">
                         <div class="row">
@@ -59,16 +58,12 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="card-body">
-                        <a href="pages/table1.html">
+                        <a href="#">
                             <img class="photo_equipment" src="../public/img/photo_camera.jpg" alt="Фотоаппараты">
                         </a>
                     </div>
-                    <!-- /.card-body -->
                 </div>
-                <!-- /.card -->
-
                 <div class="card-item">
                     <div class="card-header">
                         <div class="row">
@@ -77,16 +72,12 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="card-body">
-                        <a href="pages/table2.html">
+                        <a href="#">
                             <img class="photo_equipment" src="../public/img/lens.jpg" alt="Объективы">
                         </a>
                     </div>
-                    <!-- /.card-body -->
                 </div>
-                <!-- /.card -->
-
                 <div class="card-item">
                     <div class="card-header">
                         <div class="row">
@@ -95,20 +86,14 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="card-body">
-                        <a href="pages/table3.html">
+                        <a href="#">
                             <img class="photo_equipment" src="../public/img/flash.jpg" alt="Вспышки">
                         </a>
                     </div>
-                    <!-- /.card-body -->
                 </div>
-                <!-- /.card -->
-
             </div>
-            <!-- /.row -->
         </div>
-        <!-- /.content -->
         <footer>
             <div class="footer-container">
                 <div>
@@ -118,11 +103,9 @@
                     <a class="email" href="mailto:mail@example.com">email</a>
                 </div>
             </div>
-            <!-- /.footer-container -->
         </footer>
     </section>
 </main>
 
 </body>
 </html>
-
