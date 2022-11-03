@@ -14,6 +14,7 @@ class ComposerStaticInit733335f3fb02aa8b5d20c3284b7b3bc8
         'Connection' => __DIR__ . '/../..' . '/database/Connection.php',
         'CreatePostTable' => __DIR__ . '/../..' . '/database/migrations/CreatePostTable.php',
         'CreateUserTable' => __DIR__ . '/../..' . '/database/migrations/CreateUserTable.php',
+        'Request' => __DIR__ . '/../..' . '/Request.php',
         'Router' => __DIR__ . '/../..' . '/Router.php',
     );
 
