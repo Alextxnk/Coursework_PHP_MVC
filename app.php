@@ -14,5 +14,5 @@ $router->define([
     'posts' => "controllers/posts.php"
 ]);
 
-require $router->show('');
+require $router->show('posts');
 
