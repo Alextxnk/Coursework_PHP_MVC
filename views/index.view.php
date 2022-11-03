@@ -47,6 +47,10 @@
             <ul class="nav-ul">
                 <li class="nav-li"><a class="navbar-brand" href="#">Главная</a></li>
             </ul>
+
+            <ul class="nav-ul">
+                <li class="nav-li"><a class="authorize-link" href="#">Авторизоваться</a></li></a></li>
+            </ul>
         </nav>
         <div class="content">
             <div class="row">

@@ -91,25 +91,21 @@ nav {
     background: #ffffff;
     box-shadow: 0 0.125rem 0.25rem 0 rgba(58, 59, 69, 0.2);
     margin-bottom: 2.5rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 .nav-ul {
     list-style-type: none;
     text-align: left;
-    padding: 0px;
     /* чтоб было по центру */
     height: 56px;
     padding: 0.5rem 1rem;
-    margin: 0 0 0 60px;
+    margin: 0 40px 0 60px;
 }
 
 .nav-li {
     display: inline;
-    margin-right: 100px;
-}
-
-.nav-li:last-child {
-    margin-right: 0px;
 }
 
 .navbar-brand {
@@ -117,9 +113,22 @@ nav {
     padding-top: 0.3125rem;
     padding-bottom: 0.3125rem;
     margin-right: 1rem;
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     color: rgba(0, 0, 0, 0.9);
     line-height: inherit;
+}
+
+.authorize-link {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.15rem;
+    line-height: inherit;
+}
+
+.authorize-link:hover {
+    color: rgba(0, 0, 0, 0.9);
 }
 
 .content {
