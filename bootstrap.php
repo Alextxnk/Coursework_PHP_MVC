@@ -2,7 +2,7 @@
 
 // $config =  require "config.php";
 
-// App::bind('config', require "config.php");
+App::bind('config', require "config.php");
 
 // App::get('config');
 
@@ -12,6 +12,6 @@ CreateUserTable::createTable($pdo);
 CreatePostTable::createTable($pdo);
 
 require Router::load("routes.php")
-    ->show(Request::uri());
+    ->show(Request::uri(), Request::method());
 
 
