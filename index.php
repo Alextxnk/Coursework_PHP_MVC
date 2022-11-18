@@ -2,6 +2,6 @@
 
 require __DIR__ . "./vendor/autoload.php";
 
-require "app.php";
+require "bootstrap.php";
 // require "views/index.view.php";
 
