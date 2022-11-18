@@ -14,6 +14,7 @@ return array(
     'Connection' => $baseDir . '/database/Connection.php',
     'CreatePostTable' => $baseDir . '/database/migrations/CreatePostTable.php',
     'CreateUserTable' => $baseDir . '/database/migrations/CreateUserTable.php',
+    'DashboardController' => $baseDir . '/controllers/DasboardController.php',
     'Request' => $baseDir . '/Request.php',
     'Router' => $baseDir . '/Router.php',
 );
