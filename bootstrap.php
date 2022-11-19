@@ -8,6 +8,3 @@ CreatePostTable::createTable(connect());
 Router::load("routes.php")
     ->show(Request::uri(), Request::method());
 
-
-
-
