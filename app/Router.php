@@ -1,5 +1,7 @@
 <?php
 
+namespace App;
+
 class Router {
 
     protected $routes = [
@@ -44,7 +46,9 @@ class Router {
 
     public function callMethod($controller, $action)
     {
-        $cont = new $controller;
+        $link = "App\\Controllers\\{$controller}";
+
+        $cont = new $link;
         return $cont->$action();
     }
 }

@@ -1,20 +1,13 @@
 <?php
 
-App::bind('config', require "config.php");
+use App\{Request, Router};
 
-$pdo = Connection::make(
-    App::get('config')['database']
-);
-
-CreateUserTable::createTable($pdo);
-CreatePostTable::createTable($pdo);
+CreateUserTable::createTable(connect());
+CreatePostTable::createTable(connect());
 
 Router::load("routes.php")
     ->show(Request::uri(), Request::method());
 
-function view($view, $data = null)
-{
-    require "views/{$view}.view.php";
-}
+
 
 
